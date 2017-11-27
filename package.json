@@ -1,0 +1,22 @@
+{
+  "name": "jate",
+  "version": "0.1.0",
+  "description": "JavaScript API template engine",
+  "repository": "outsideris/jate",
+  "keywords": [
+    "JSON",
+    "API",
+    "express",
+    "view"
+  ],
+  "author": "JeongHoon Byun (aka Outsider) <outsideris@gmail.com>",
+  "license": "MIT",
+  "main": "lib",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}

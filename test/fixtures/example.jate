@@ -1,0 +1,7 @@
+module.exports = (data) => ({
+  status: data.isSuccess,
+  data: {
+    id: data.id,
+    name: data.name,
+  },
+});
