@@ -2,3 +2,4 @@
 
 JavaScript API template engine for express
 
+image:https://travis-ci.org/outsideris/jate.svg?branch=master["Build Status", link="https://travis-ci.org/outsideris/jate"]

@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- 8
+script:
+- npm run lint
+- npm test
+deploy:
+  provider: npm
+  email: outsideris@gmail.com
+  api_key:
+    secure: hcxORxpns8swNlXBiNKuTPyykGpYILzS0cVhggjhpmqB8LUIop8wzKB4b9C7z5sHcK60cJD4ov/+gEyTtsxPBvd2uiMn+QOa2WF8HPDkx2HcVXtuWZGM36aBkEbV3AG5DPHlD99UVfw0SkTsgG6UgvFMomS0Dh8SdGJNqf8IiK5+4Qed02Dd+8m2MX6pGKlfbJ5/h5wgJsUxYzrgmErm8DyMlGVOK62SstdX2hbIOd6W9yKtfTXgX5PbO1WvQQuURmtKwqE1hZR+QiN9B1Mlyw+8WbzvXhggKRtSOTImju7NYskl2qszt4xrtTd214AqXZXY6TEpD2tyHLacNbieaM4mUJyBWhOJk5H2/Ekbt8w6F7rlI0l7PyYxSGELEjuJjf0tD48c7js66Nk5Ny1ulF2IDD4l4LrSLIMhZLQnI4KK5ttoFhGiMEr2HIIt1zqjk13pGuUhW1RyVderuftvq2SSx5TM7sTcmvqPMGXxEVcFzLG7XZ3eeiRudlctsCHdv7ADD8HxOCPqw4pf7Lzcznzq1UE2V5QFy1My+hA9kAAQq319s8QK34EU1XF6o7GABvLvJj7kB1lQA32AZ/cQKTXoRZktAbHhm0nu9Yiwf/kGrUncMceSIGPIMcBOt5ajt5doD9rNxTwjzgCt2KwAUoXDyD7rspSAzvB+g01Jlj4=
+  on:
+    tags: true
+    repo: outsideris/jate
