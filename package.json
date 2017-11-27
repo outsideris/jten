@@ -1,8 +1,8 @@
 {
-  "name": "jate",
+  "name": "jten",
   "version": "0.1.0",
-  "description": "JavaScript API template engine",
-  "repository": "outsideris/jate",
+  "description": "JSON template engine for express",
+  "repository": "outsideris/jten",
   "keywords": [
     "JSON",
     "API",
