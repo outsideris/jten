@@ -23,5 +23,8 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-mocha": "^4.11.0",
     "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "clean-deep": "^3.0.2"
   }
 }
